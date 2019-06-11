@@ -157,3 +157,13 @@ input::placeholder {
         padding-right: 25px;
     }
 }
+@media (max-width: 500px){
+    footer,.fa{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width: 346px){
+    h1{
+        font-size: 3rem;
+    }
+}
