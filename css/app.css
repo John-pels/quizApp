@@ -57,7 +57,18 @@ h3 {
     margin: 0 auto;
     padding: 2rem;
 }
-
+footer, .fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 2.5rem;
+}
+/*footer>p{
+    display: flex;
+    justify-content: center;
+}
+*/
 .container>* {
     width: 100%;
 }
@@ -133,4 +144,16 @@ input {
 
 input::placeholder {
     color: #aaa;
+}
+
+
+/* FOR RESPONSIVENESS */
+
+@media (max-width:700px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+    .container>* {
+        padding-right: 25px;
+    }
 }
